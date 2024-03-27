@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Helpdesk Container */
+.helpdesk-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter Section */
+.filter-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Filter Dropdown */
+.filter-dropdown {
+  padding: 8px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Ticket Container */
+.ticket-container {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Input Label */
+.input-label {
+  margin-top: 10px;
+  display: block;
+}
+
+/* Input Field */
+.input-field {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Action Button */
+.action-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #218838;
+}
+
+/* Comment Section */
+.comment-section {
+  margin-top: 20px;
+}
+
+/* Comment */
+.comment {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .input-field, .filter-dropdown {
+    width: 100%;
+  }
+}
